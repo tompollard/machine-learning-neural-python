@@ -10,60 +10,51 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## What is machine learning
+## What is an artificial neural network?
 
+An artificial neural network, or just "neural network", is a broad term that describes a family of machine learning models that are (very!) loosely based on the neural circuits found in biology. 
+
+![Neuron](../fig/neuron.png){: width="600px"}
+
+From a high level, a neural network is a system that takes input values in an "input layer", processes these values with a collection of functions in one or more "hidden layers", and then generates an output in an "output layer". The network has parameters that are systematically tweaked to allow pattern recognition. 
+
+![Simple neural network](../fig/simple_neural_network.png){: width="270px"}
+
+"Deep Learning" is an increasingly popular term used to describe neural networks. When people talk about Deep Learning they are typically referring to more complex network designs often with a large number of hidden layers.
+
+![Simple neural network](../fig/deep_neural_network.png){: width="600px"}
+
+## History
+
+The foundation of artificial neural network algorithms came about in the mid-1900s. Warren McCulloch, a neurophysiologist, and Walter Pitts, a mathematician, are often credited with proposing the model of threshold logic in 1943 that underpins the algorithms used today.
+
+The Perceptron, an early implementation of neural networks, was described by Frank Rosenblatt, a psychologist
+at Cornell University. This early network suffered from limitations, most significantly that it was only able to perform as a linear classifier, failing where a single hyperplane could not separate classes.
+
+The development and adoption of back propagation - a class of algorithms that improved the training process for neural networks - took place over a long period, eventually leading to a resurgence of interest in neural networks
+
+<!-- 
+
+Charles Babbage
+
+Ada Lovelace
+
+Alan Turing
+
+Fei-Fei Li has helped to advance image recognition in machine learning.
 
 ## Examples of machine learning
 
-
-## What are neural networks
-
-The foundation of artificial neural network algorithms came about in the mid-1900s. was known as the "perceptron". 
-
-https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon
-
-https://sebastianraschka.com/Articles/2015_singlelayer_neurons.html
-
-""The perceptron is a linear classifier, therefore it will never get to the state with all the input vectors classified correctly if the training set D is not linearly separable, i.e. if the positive examples cannot be separated from the negative examples by a hyperplane. In this case, no "approximate" solution will be gradually approached under the standard learning algorithm, but instead, learning will fail completely. Hence, if linear separability of the training set is not known a priori, one of the training variants below should be used.""
-
-
 ## Networks
-
 
 ## Training
 
-## What is an artificial neural network?
-
-An artificial neural network, or just "neural network", is a broad term that describes a family of machine learning models that are (very!) loosely based on the neural circuits found in biology.
-
-From a high level, a neural network is a system that takes input values, processes these values with a collection of functions, and then generates an output. Typically the system has parameters that can be systematically tweaked to allow pattern recognition. 
-
 ## Neurons
-
-
 
 ## Activation function
 
-
-
 ## Layers
 
-
-When people talk about "Deep Learning", they are usually referring to more complex networks with a large number of layers.
-
-
-
-
-transformer
-
-rnn 
-
-cnn
-
-ethics
-
-
-## Weights and biases
-
+## Weights and biases -->
 
 {% include links.md %}

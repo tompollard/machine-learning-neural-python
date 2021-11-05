@@ -226,19 +226,11 @@ plt.show()
 ```
 
 The perceptron is limited. Only able to converge if classes can be separated by
-a linear plane.
-
-Later models such as ADALINE (Adaptive Linear Neuron) were introduced in the 1960s
+a linear plane. Later models such as ADALINE (Adaptive Linear Neuron) were introduced in the 1960s
 that replaces the step fnction with a continuous linear function.
 
 The addition of a linear function allows us to use gradient descent to optimise our model.
 Similar to linear regression visited previously, we can define error as squared error.
-
-The weights are now updated as follows:
-https://en.wikipedia.org/wiki/ADALINE
-
-Rather than updating weights one data point at a time, we can update the weights
-as a batch.
 
 
 {% include links.md %}
